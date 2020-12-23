@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ITHitSps"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties="{&quot;sampleTextEdit&quot;:&quot;Click to edit item.&quot;}"
+        ComponentId="96a8d791-da10-46de-bea6-2b35e9ac0fad" />
+</Elements>

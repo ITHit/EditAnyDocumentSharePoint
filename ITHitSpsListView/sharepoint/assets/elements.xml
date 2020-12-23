@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ITHitSps"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.ContextMenu"
+        ClientSideComponentId="96a8d791-da10-46de-bea6-2b35e9ac0fad"
+        ClientSideComponentProperties="{&quot;sampleTextEdit&quot;:&quot;Click to edit item.&quot;}">
+    </CustomAction>
+</Elements>

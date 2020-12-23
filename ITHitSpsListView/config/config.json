@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ithit-sps-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/ITHitSps/ITHitSpsSampleCommandSet.js",
+          "manifest": "./src/extensions/ITHitSps/ITHitSpsSampleCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "webdavclient": {
+      "path": "./src/ITHitWebDAVClient.js",
+      "globalName": "ITHit"
+    },
+    "spsmanager": {
+      "path": "./src/ITHitSps.js",
+      "globalName": "ITHitSps"
+    }
+  },
+  "localizedResources": {
+    "ITHitSpsSampleCommandSetStrings": "lib/extensions/ITHitSps/loc/{locale}.js"
+  }
+}
